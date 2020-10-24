@@ -1,3 +1,3 @@
 # Arkademy
 Arkademy_PreTest
-asd
+https://raw.githubusercontent.com/Cotllinz/Arkademy/main/Arkademy_Pretest/assets/image/Vektor_BurgerBanner.png
