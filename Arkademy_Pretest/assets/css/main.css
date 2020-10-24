@@ -1,0 +1,151 @@
+* {
+  font-family: Poppins;
+}
+body {
+  background: rgba(248, 192, 236, 0.3);
+}
+
+/* Navbar CSS */
+.nav-item {
+  padding-left: 30px;
+}
+.burger__icon {
+  width: 30px;
+  object-fit: contain;
+  margin-top: -10px;
+}
+.nav-link {
+  color: #000000 !important;
+}
+.nav-link:hover {
+  color: #fd45b7 !important;
+}
+.logo__icon {
+  font-size: 30px;
+  color: rgb(255, 132, 153) !important;
+  font-weight: 600;
+}
+.active {
+  color: white !important;
+  border: solid 1px none;
+  background-color: rgb(236, 98, 121);
+  border-radius: 7px;
+}
+.active:hover {
+  color: white !important;
+}
+.btn_signin {
+  background: transparent;
+  border: none;
+  color: #ff013c;
+  position: relative;
+}
+.btn_signin::before {
+  content: "";
+  border-bottom: 1px solid #ff013c;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.4s;
+}
+.btn_signin:hover:before {
+  width: 70%;
+  padding: 0;
+}
+.btn_signin:hover {
+  color: #ff013c !important;
+}
+.btn-outline-primary {
+  border-color: #fd9ab6;
+  color: #fd9ab6;
+}
+.btn-outline-primary:hover {
+  background-color: rgb(252, 61, 92);
+  border-color: rgb(252, 61, 92);
+}
+
+/* Banner CSS */
+
+.image__banner {
+  width: 100%;
+  position: relative;
+  bottom: 90px;
+  z-index: -1;
+  object-fit: contain;
+}
+.banner__title {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.title h1 {
+  color: #ea3788;
+  font-weight: 800;
+}
+.sub_title h2 {
+  font-weight: normal;
+  color: #ea3788;
+}
+.sub_text {
+  text-align: justify;
+  color: rgb(110, 110, 110);
+  font-size: 1.2em;
+}
+.underline {
+  text-decoration: underline #ea3788;
+}
+.product__image {
+  column-width: auto;
+  padding: 20px;
+}
+.product__card {
+  background: transparent;
+  border: none;
+}
+
+.form-group {
+  display: block;
+  margin: 0 auto;
+}
+.form-control {
+  background: transparent;
+  border: transparent;
+  border-bottom: solid 1px #fd45b7;
+}
+.form-control:active {
+  background: transparent;
+  border: transparent;
+}
+.card-text {
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
+  line-height: 2rem;
+}
+.btn_edit {
+  background-color: #f14c96;
+  color: white;
+}
+.title-one {
+  color: #ea3788;
+}
+.title-two {
+  color: rgb(0, 0, 0);
+}
+.title-three {
+  color: rgb(253, 146, 24);
+}
+.btn_edit:hover {
+  color: white;
+}
+.btn_delete:hover {
+  color: red;
+}
+.input-group-text {
+  background: transparent;
+  border: transparent;
+}
